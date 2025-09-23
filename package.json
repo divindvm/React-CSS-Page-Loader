@@ -1,0 +1,55 @@
+{
+  "name": "react-css-page-loader",
+  "version": "1.0.1",
+  "description": "A React component for page loading animations with CSS-based animations",
+  "main": "dist/index.js",
+  "module": "dist/index.esm.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "rollup -c",
+    "dev": "rollup -c -w",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "react",
+    "loader",
+    "loading",
+    "animation",
+    "page-loader",
+    "css-animation"
+  ],
+  "author": "Your Name",
+  "license": "MIT",
+  "peerDependencies": {
+    "react": ">=16.8.0",
+    "react-dom": ">=16.8.0",
+    "framer-motion": ">=6.0.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.0",
+    "@babel/preset-react": "^7.22.0",
+    "@rollup/plugin-babel": "^6.0.0",
+    "@rollup/plugin-commonjs": "^25.0.0",
+    "@rollup/plugin-node-resolve": "^15.0.0",
+    "@rollup/plugin-typescript": "^11.0.0",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "rollup": "^3.0.0",
+    "rollup-plugin-dts": "^5.0.0",
+    "rollup-plugin-postcss": "^4.0.0",
+    "sass": "^1.64.0",
+    "typescript": "^5.0.0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/divindvm/React-CSS-Page-Loader.git"
+  },
+  "bugs": {
+    "url": "https://github.com/divindvm/React-CSS-Page-Loader/issues"
+  },
+  "homepage": "https://github.com/divindvm/React-CSS-Page-Loader#readme"
+}
