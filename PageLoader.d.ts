@@ -22,13 +22,44 @@ export interface PageLoaderProps {
    * Type of loading animation to display
    * @default "circle"
    */
-  animationType?: 'circle' | 'text';
+  animationType?: 'circle' | 'text' | 'custom';
   
   /**
    * Loading duration in milliseconds
    * @default 3000
    */
   duration?: number;
+  
+  /**
+   * External loading state control. If provided, overrides internal loading state
+   */
+  isLoading?: boolean;
+  
+  /**
+   * Callback function called when loading completes (only when using external loading state)
+   */
+  onLoadingComplete?: () => void;
+  
+  /**
+   * Custom HTML content to display when animationType is 'custom'
+   */
+  customLoader?: ReactNode;
+  
+  /**
+   * Custom styles to apply to the loading container
+   */
+  customStyles?: React.CSSProperties;
+  
+  /**
+   * Whether to automatically trigger loading on route changes (requires react-router-dom)
+   * @default true
+   */
+  autoRouteLoading?: boolean;
+  
+  /**
+   * Custom route change detection function
+   */
+  onRouteChange?: () => void;
 }
 
 /**

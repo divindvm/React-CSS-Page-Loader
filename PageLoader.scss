@@ -1,4 +1,12 @@
 .curve {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    z-index: 999999;
+    pointer-events: none;
+    
     svg, .background {
         position: fixed;
         width: calc(100vw + 600px);
@@ -18,7 +26,7 @@
         top: 50%;
         color: white;
         font-size: 46px;
-        z-index: 3;
+        z-index: 1001;
         transform: translateY(-50%);
         text-align: center;
     }
@@ -30,7 +38,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 99999;
+    z-index: 1000000;
     width: 140px;
     height: auto;
     background-color: rgba(0, 0, 0, 0.9);
@@ -41,6 +49,7 @@
     align-items: center;
     justify-content: center;
     min-height: 100px;
+    pointer-events: auto;
 }
 
 // Loading circle animation
@@ -71,6 +80,21 @@
     font-weight: 500;
     text-align: center;
     animation: pulse 1.5s ease-in-out infinite;
+}
+
+// Custom loader styles
+.custom-loader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    color: white;
+    
+    // Allow custom content to have full control over styling
+    * {
+        color: inherit;
+    }
 }
 
 @keyframes pulse {

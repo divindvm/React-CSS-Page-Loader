@@ -1,7 +1,7 @@
 {
   "name": "react-css-page-loader",
-  "version": "1.0.1",
-  "description": "A React component for page loading animations with CSS-based animations",
+  "version": "1.1.0",
+  "description": "A powerful React component for page loading animations with automatic route detection, custom loaders, and external state control",
   "main": "dist/index.js",
   "module": "dist/index.esm.js",
   "types": "dist/index.d.ts",
@@ -20,7 +20,11 @@
     "loading",
     "animation",
     "page-loader",
-    "css-animation"
+    "css-animation",
+    "route-detection",
+    "custom-loader",
+    "framer-motion",
+    "typescript"
   ],
   "author": "Your Name",
   "license": "MIT",
