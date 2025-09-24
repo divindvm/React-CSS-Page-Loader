@@ -2,7 +2,7 @@
 
 A powerful React component for page loading animations with CSS-based animations, automatic route detection, and customizable loading states.
 
-Author: Divin Divakaran
+Author: Divin
 
 ## Demo
 
