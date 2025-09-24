@@ -2,6 +2,8 @@
 
 A powerful React component for page loading animations with CSS-based animations, automatic route detection, and customizable loading states.
 
+Author: Divin Divakaran
+
 ## Demo
 
 ![Page Loader Demo](https://raw.githubusercontent.com/divindvm/React-CSS-Page-Loader/main/demo%20video.gif)
